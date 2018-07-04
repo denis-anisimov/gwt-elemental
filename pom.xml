@@ -13,6 +13,19 @@
         <dependency.unpack.directory>${project.build.directory}/dependency-unpack</dependency.unpack.directory>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>vaadin-staging</id>
+            <name>Vaadin release staging repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+        <snapshotRepository>
+            <id>vaadin-snapshots</id>
+            <name>Vaadin snapshot repository</name>
+            <url>https://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <!-- Needed GWT dependencies. Required parts are packaged to jar -->
         <dependency>
