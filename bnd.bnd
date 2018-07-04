@@ -1,0 +1,5 @@
+Bundle-SymbolicName: com.vaadin.external.gwt
+Bundle-Name: Vaadin GWT Elemental
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Export-Package: elemental.json*;-noimport:=true
